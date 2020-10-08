@@ -78,27 +78,6 @@ class BT:
         return False
 
 
-    def printNodes(self, current_node):
-        if (current_node != None):
-            print(current_node.value)
-            if (current_node.left != None):
-                self.printNodes(current_node.left)
-
-            if (current_node.right != None):
-                self.printNodes(current_node.right)
-
-
-    # Prints the BT in Preorder
-    def printPreorderBT(self):
-        if (self.root != None):
-            current = self.root
-            left = self.root.left
-            right = self.root.right
-
-            print(current.value)
-            self.printNodes(left)
-            self.printNodes(right)
-
 
 # Time complexity O(N)
 def findLCA(root, node_value1, node_value2):
