@@ -12,4 +12,4 @@ My solution to this problem was the same in both my Python and C implementation.
 First a path is found to the first node passed into the algorithm. The findPath algorithm is called and starting from the root, the algorithm visits children nodes from the root until it arrives at the desired node while storing every node it visited in an array. 
 The same process is repeated for the second node passed into the algorithm. Once two paths to each of the nodes has been found the paths are compared and the lowest common ancestor will be the node right before the two path arrays start to differ.
 
-![alt text](images/lca.png)
+![alt text](images/picdemo.png)
